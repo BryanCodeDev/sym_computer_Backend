@@ -23,8 +23,8 @@ INSERT IGNORE INTO `roles` (`id`, `name`, `description`, `permissions`) VALUES
 -- y reemplaza los correos/teléfonos por los reales.
 -- ------------------------------------------------------------
 INSERT IGNORE INTO `users` (`first_name`, `last_name`, `email`, `password_hash`, `role_id`, `phone`, `city`, `province`, `is_active`, `email_verified`) VALUES
-('SYM', 'Admin', 'admin@symcomputer.com', '$2a$12$kzlsqHY/QgEcOxqnX22zv.P1h.oRrupoNzW.2jBDdUfy5lAu1nRyi', 1, '3133245600', 'Mosquera', 'Cundinamarca', TRUE, TRUE),
-('Cajero', 'SYM', 'cajero@symcomputer.com', '$2a$12$kzlsqHY/QgEcOxqnX22zv.P1h.oRrupoNzW.2jBDdUfy5lAu1nRyi', 4, '3133245601', 'Mosquera', 'Cundinamarca', TRUE, TRUE);
+('SYM', 'Admin', 'admin@symcomputer.com', '$2a$12$V1fB6UjokcZZoVYABU9zJ.JM3lxw.ASnaS8RU0Z5c5lMGA6oDYWFC', 1, '3133245600', 'Mosquera', 'Cundinamarca', TRUE, TRUE),
+  ('Cajero', 'SYM', 'cajero@symcomputer.com', '$2a$12$V1fB6UjokcZZoVYABU9zJ.JM3lxw.ASnaS8RU0Z5c5lMGA6oDYWFC', 4, '3133245601', 'Mosquera', 'Cundinamarca', TRUE, TRUE);
 
 
 -- ------------------------------------------------------------
